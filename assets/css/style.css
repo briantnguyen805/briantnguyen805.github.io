@@ -1,0 +1,314 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds.png");
+    background-repeat: repeat;
+}
+.container > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+.home-button {
+	margin: 0 10%;
+	padding: 5px 20px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 15px;
+	background: #FEFEFE;
+	box-shadow: 5px 5px 5px grey;
+	border: 1px solid black;
+	position: relative;
+	border-radius: 5px;
+	transition: .2s;
+}
+.home-button:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	transform: scale(1.5);
+}
+.main-button {
+	width: 500px;
+	box-shadow: 0 20px grey;
+	border: solid black;
+	background-color: #FEFEFE;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	outline: none;
+}
+a {
+	color: black;
+}
+a:link {
+	text-decoration: none;
+}
+a:active {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+.main-button:hover {
+	transition: 0.2s;
+	cursor: pointer;
+}
+.main-button:active {
+	box-shadow: 0 1px grey;
+	transform: translateY(19px);
+}
+.heading {
+	font-family: 'Gaegu', cursive;
+	font-size: 60px;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+}
+.subtitle {
+	font-family: 'Fjalla One', sans-serif;
+	margin-bottom: 50px;
+}
+.sections {
+	position: relative;
+}
+#interests {
+	top: 20px;
+	right: 200px;
+}
+}	
+#cmi {
+	bottom: 20px;
+	left: 220px;
+}
+#home {
+	right: 170px;
+	bottom: 100px;
+}
+.subtitle > p {
+	margin: 0;
+	padding: 3px;
+}
+#contact {
+	left: 200px;
+	bottom: 110px;
+}
+#about {
+	left: 15px;
+	top: 35px;
+}	
+.home-button2 {
+	margin: 0 10%;
+	padding: 5px 20px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 25px;
+	background: #FEFEFE;
+	border: 1px solid black;
+	display: flex;
+	transition: .2s;
+}
+.container2 {
+	background: #2A2424;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds2.png");
+	background-repeat: repeat;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	height: 25vh;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+a {
+	color: black;
+}
+a:link {
+	text-decoration: none;
+}
+a:active {
+	color: black;
+}
+a:visited {
+	color: black;
+}
+.home-button2:hover {
+	transition: 0.5s;
+	cursor: pointer;
+ 	transform: scale(0.8);
+}	
+#box {
+	height: 20vh;
+	width: 250vw;
+	margin-left: 196px;
+
+}
+#box2 {
+	width: 300vw;
+}
+#box3 {
+	height: 25vh;
+	width: 25vw;
+	margin-left: 196px;
+}
+#box4 {
+	height: 25vh;
+	width: 30vw;
+	margin-top: 6px;
+	margin-left: 152px;
+}
+#box5 {
+	height: 15vh;
+	width: 70vw;
+	margin-left: 196px;
+	margin-bottom: 35px;
+}
+#box6 {
+	height: 20vh;
+	width: 70vw;
+	margin-top: 4px;
+}
+#box7 {
+	height: 25vh;
+	width: 30vw;
+	margin-left: 196px;
+	margin-bottom: 67px;
+}
+#box8 {
+	height: 15vh;
+	margin-bottom: 60px;
+	margin-right: 137px;
+}
+.container3 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container3 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}	
+#link {
+	display: flex;
+	margin-top: 125px;
+}
+.container4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container4 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}	
+.container5 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container5 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}	
+.container6 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container6 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}	
+.container7 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container7 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}	
+.container8 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+	height: 100vh;
+	background-color: #85DAE8;
+	background-image: url("../img/pixel_clouds3.png");
+    background-repeat: repeat;
+}
+.container8 > div {
+	height: 33.33vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
+.back-button {
+	position: absolute;
+	background-color: transparent;
+}
+.back-button img {
+	height: 8vh;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.back-button:hover {
+	transition: 0.3s;
+	cursor: pointer;
+	transform: scale(1.5);
+}
+
